@@ -1,0 +1,191 @@
+
+
+Comapartiendo..!
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>F y L - Nuestro Amor totalmente privado</title>
+  <style>
+    body {
+      background-color: #ffdde4;
+      color: #5c1a1b;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      color: #d81b60;
+      font-size: 50px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    p {
+      font-size: 22px;
+      color: #5c1a1b;
+      margin-bottom: 30px;
+    }
+
+    .counter {
+      background-color: #fff0f4;
+      border: 2px solid #d81b60;
+      border-radius: 15px;
+      display: inline-block;
+      padding: 20px;
+      font-size: 26px;
+      color: #d81b60;
+      font-weight: bold;
+      margin: 15px 0;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 0 15px #d81b60;
+    }
+
+    .heart {
+      font-size: 40px;
+      color: #d81b60;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>F y L</h1>
+  <div class="heart">❤️❤️❤️</div>
+  <p>Bienvenid@ a sus datos juntos</p>
+
+  <div id="contadorAniversario" class="counter"></div>
+  <div id="contadorBoda" class="counter"></div>
+
+  <div class="heart">❤️❤️❤️</div>
+
+  <script>
+    const startDate = new Date("2024-08-10T00:00:00");
+    const weddingDate = new Date("2030-01-01T00:00:00");
+
+    function updateCounters() {
+      const currentDate = new Date();
+
+      // Contador de aniversario
+      let timeDiffAniversario = currentDate - startDate;
+      let daysAniversario = Math.floor(timeDiffAniversario / (1000 * 60 * 60 * 24));
+      if (daysAniversario < 0) daysAniversario = 0;
+      document.getElementById("contadorAniversario").textContent = `Han pasado ${daysAniversario} días desde que estamos juntos`;
+
+      let timeDiffBoda = weddingDate - currentDate;
+      let daysBoda = Math.ceil(timeDiffBoda / (1000 * 60 * 60 * 24));
+      if (daysBoda < 0) daysBoda = 0;
+      document.getElementById("contadorBoda").textContent = `Faltan ${daysBoda} días para nuestra boda`;
+    }
+
+    setInterval(updateCounters, 1000);
+    updateCounters();
+  </script>
+</body>
+</html> <!-- Sección de Fabricio -->
+  <div id="fabricio">
+    <h2>Acerca de Fabricio</h2>
+    <ul>
+      <li>1) Alto</li>
+      <li>2) Contador</li>
+      <li>3) Futuro licenciado</li>
+      <li>4) Futuro esposo de L</li>
+      <li>5) Payaso</li>
+      <li>6) Guapo</li>
+      <li>7) Ama a su niña</li>
+      <li>8) Se le arruina la moto</li>
+      <li>9) Sueña con su niña</li>
+      <li>10) No deja de pensar en su niña 🌷</li>
+    </ul>
+  
+  
+
+  <!-- Sección de Linny -->
+  <div id="linny">
+    <h2>Acerca de Linny</h2>
+    <ul>
+      <li>1) Chaparrita</li>
+      <li>2) Enojona</li>
+      <li>3) Bien guapa</li>
+      <li>4) Informática (la más guapa)</li>
+      <li>5) Tiene granitos</li>
+      <li>6) Sueña que vota a F de la moto</li>
+      <li>7) Ama a su F</li>
+      <li>8) No es tóxica, creo</li>
+      <li>9) Depravada...</li>
+      <li>10) Una linduraaa 🌷</li>
+    </ul>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Fotos Juntos</title>
+  <style>
+    body {
+      background-color: #ffdde4;
+      color: #5c1a1b;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      color: #d81b60;
+      font-size: 50px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 5px solid #d81b60;
+      box-shadow: 0 0 15px #d81b60;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 25px;
+      background-color: #d81b60;
+      color: #fff;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #d81b60;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+
+
